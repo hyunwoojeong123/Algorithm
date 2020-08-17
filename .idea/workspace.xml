@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0502e423-62a7-478f-98e2-d727f00453d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/D2_1961_rotateNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D4_1226_miro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D4_1861_square.py" beforeDir="false" afterPath="$PROJECT_DIR$/D4_1861_square.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D4_1868_paping.py" beforeDir="false" afterPath="$PROJECT_DIR$/D4_1868_paping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fqqClhk1MYh53Ws7va7spbguuq" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -152,11 +148,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.D4_4408_backhome" />
-      <item itemvalue="Python.D4_1861_square" />
-      <item itemvalue="Python.D4_1861_square (1)" />
-      <item itemvalue="Python.D4_1226_miro" />
       <item itemvalue="Python.D2_1961_rotateNumber" />
+      <item itemvalue="Python.D4_1226_miro" />
+      <item itemvalue="Python.D4_1861_square (1)" />
+      <item itemvalue="Python.D4_1861_square" />
+      <item itemvalue="Python.D4_4408_backhome" />
     </list>
     <recent_temporary>
       <list>
@@ -192,6 +188,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
