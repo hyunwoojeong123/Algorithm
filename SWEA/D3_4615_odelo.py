@@ -5,6 +5,7 @@ def put(i,j,color):
     #print(f'{i},{j}에 {color} 놓음')
     board[i][j] = color
     opp_color = -1
+    # 반대 샊깔 지정
     if color == 1:
         opp_color = 2
     else:
