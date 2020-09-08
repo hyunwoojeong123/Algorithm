@@ -13,7 +13,7 @@ def DFS(i,j):
         if board[ni][nj] == 0:
             continue
         if visited[ni][nj]:
-            continue-=
+            continue
         DFS(ni,nj)
 
 N = int(input())

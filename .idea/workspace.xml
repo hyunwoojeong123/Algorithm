@@ -20,37 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0502e423-62a7-478f-98e2-d727f00453d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BOJ/감시.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/경사로.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/로봇청소기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/스타트링크.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/연구소.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/연산자끼워넣기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/주사위굴리기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/테트로미노.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/톱니바퀴.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/퇴사.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/프린터큐.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KAKAO_BLIND2020/문자열압축.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/D2_5102_노드의거리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/D3_1220_Magnetic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/D3_4047_CardCounting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/D4_1238_Contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/D4_1244_Calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/D4_2819_BoardNum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/D4_4613_RussianFlag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_4874_Forth_정현우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_4875_미로_정현우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_4881_배열최소합_정현우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_5097_회전_정현우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_5099_피자굽기_정현우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_5105_미로의거리_정현우.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2_1204_choibinsu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2_1859_100manJangja.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2_1926_369.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2_1928_Decoder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2_1961_rotateNumber.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2_1974_sdoku.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2_2001_parikill.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2_2007_patternLen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2_4834_numcard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2_4835_guganhab.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2_4836_color.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D2_4839_BinarySearch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D3_1206_View.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D3_1208_Flatten.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D3_1209_sum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D3_1244_MaxPrize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D3_2806_NQueen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D3_4831_ElecBus.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D3_4837_bubunjibhab.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D3_4843_SpecialSort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D3_6057_GraphSemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D4_1226_miro.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D4_1249_Bogupro.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D4_1258_FindMatrix.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D4_1486_HighShelves.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D4_1861_square.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D4_1868_paping.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/D4_4408_backhome.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_minmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ/2667_단지번호붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/2667_단지번호붙이기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/.idea/SWEA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/.idea/SWEA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +71,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SWEA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/KAKAO_BLIND2020" />
   </component>
-  <component name="RunManager" selected="Python.D4_1211_Ladder2">
+  <component name="RunManager" selected="Python.SWEA_4871_그래프경로_정현우">
+    <configuration name="문자열압축" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Woo\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KAKAO_BLIND2020" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KAKAO_BLIND2020/문자열압축.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="D4_1211_Ladder2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,48 +108,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D4_1211_Ladder2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SWEA_4866_괄호검사_정현우" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA_4866_괄호검사_정현우.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SWEA_4869_종이붙이기_정현우" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA_4869_종이붙이기_정현우.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,20 +158,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="프린터큐" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/프린터큐.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.SWEA_4869_종이붙이기_정현우" />
-      <item itemvalue="Python.SWEA_4866_괄호검사_정현우" />
       <item itemvalue="Python.SWEA_4871_그래프경로_정현우" />
       <item itemvalue="Python.SWEA_4873_반복문자지우기_정현우" />
       <item itemvalue="Python.D4_1211_Ladder2" />
+      <item itemvalue="Python.문자열압축" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.문자열압축" />
         <item itemvalue="Python.D4_1211_Ladder2" />
         <item itemvalue="Python.SWEA_4873_반복문자지우기_정현우" />
         <item itemvalue="Python.SWEA_4871_그래프경로_정현우" />
-        <item itemvalue="Python.SWEA_4866_괄호검사_정현우" />
-        <item itemvalue="Python.SWEA_4869_종이붙이기_정현우" />
       </list>
     </recent_temporary>
   </component>
@@ -229,39 +228,44 @@
       <screen x="0" y="0" width="1472" height="864" />
     </state>
     <state x="740" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1472.864@0.0.1472.864" timestamp="1598274115928" />
-    <state x="518" y="187" key="FileChooserDialogImpl" timestamp="1598529109157">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state x="647" y="234" key="FileChooserDialogImpl" timestamp="1599391623299">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="517" y="187" key="FileChooserDialogImpl/0.0.1472.864@0.0.1472.864" timestamp="1598274043152" />
     <state x="518" y="187" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1598529109157" />
-    <state width="992" height="193" key="GridCell.Tab.0.bottom" timestamp="1598509317693">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state x="647" y="234" key="FileChooserDialogImpl/0.0.1842.1080@0.0.1842.1080" timestamp="1599391623299" />
+    <state width="939" height="280" key="GridCell.Tab.0.bottom" timestamp="1599374240258">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state width="1451" height="207" key="GridCell.Tab.0.bottom/0.0.1472.864/1920.0.1920.1080@0.0.1472.864" timestamp="1596959311304" />
     <state width="834" height="192" key="GridCell.Tab.0.bottom/0.0.1472.864@0.0.1472.864" timestamp="1598274988549" />
     <state width="992" height="193" key="GridCell.Tab.0.bottom/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1598509317693" />
     <state width="992" height="193" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1598452612723" />
-    <state width="992" height="193" key="GridCell.Tab.0.center" timestamp="1598509317693">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state width="939" height="280" key="GridCell.Tab.0.bottom/0.0.1842.1080@0.0.1842.1080" timestamp="1599374240258" />
+    <state width="939" height="280" key="GridCell.Tab.0.center" timestamp="1599374240258">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state width="1451" height="207" key="GridCell.Tab.0.center/0.0.1472.864/1920.0.1920.1080@0.0.1472.864" timestamp="1596959311304" />
     <state width="834" height="192" key="GridCell.Tab.0.center/0.0.1472.864@0.0.1472.864" timestamp="1598274988549" />
     <state width="992" height="193" key="GridCell.Tab.0.center/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1598509317693" />
     <state width="992" height="193" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1598452612723" />
-    <state width="992" height="193" key="GridCell.Tab.0.left" timestamp="1598509317693">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state width="939" height="280" key="GridCell.Tab.0.center/0.0.1842.1080@0.0.1842.1080" timestamp="1599374240258" />
+    <state width="939" height="280" key="GridCell.Tab.0.left" timestamp="1599374240258">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state width="1451" height="207" key="GridCell.Tab.0.left/0.0.1472.864/1920.0.1920.1080@0.0.1472.864" timestamp="1596959311304" />
     <state width="834" height="192" key="GridCell.Tab.0.left/0.0.1472.864@0.0.1472.864" timestamp="1598274988549" />
     <state width="992" height="193" key="GridCell.Tab.0.left/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1598509317693" />
     <state width="992" height="193" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1598452612723" />
-    <state width="992" height="193" key="GridCell.Tab.0.right" timestamp="1598509317693">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state width="939" height="280" key="GridCell.Tab.0.left/0.0.1842.1080@0.0.1842.1080" timestamp="1599374240258" />
+    <state width="939" height="280" key="GridCell.Tab.0.right" timestamp="1599374240258">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state width="1451" height="207" key="GridCell.Tab.0.right/0.0.1472.864/1920.0.1920.1080@0.0.1472.864" timestamp="1596959311304" />
     <state width="834" height="192" key="GridCell.Tab.0.right/0.0.1472.864@0.0.1472.864" timestamp="1598274988549" />
     <state width="992" height="193" key="GridCell.Tab.0.right/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1598509317693" />
     <state width="992" height="193" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1598452612723" />
+    <state width="939" height="280" key="GridCell.Tab.0.right/0.0.1842.1080@0.0.1842.1080" timestamp="1599374240258" />
     <state width="990" height="266" key="GridCell.Tab.1.bottom" timestamp="1598319472317">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
