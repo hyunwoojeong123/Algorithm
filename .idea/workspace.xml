@@ -19,40 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0502e423-62a7-478f-98e2-d727f00453d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BOJ/감시.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/경사로.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/로봇청소기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/스타트링크.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/연구소.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/연산자끼워넣기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/주사위굴리기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/테트로미노.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/톱니바퀴.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/퇴사.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/프린터큐.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KAKAO_BLIND2020/문자열압축.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/D2_5102_노드의거리.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/D3_1220_Magnetic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/D3_4047_CardCounting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/D4_1238_Contact.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/D4_1244_Calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/D4_2819_BoardNum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/D4_4613_RussianFlag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_4874_Forth_정현우.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_4875_미로_정현우.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_4881_배열최소합_정현우.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_5097_회전_정현우.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_5099_피자굽기_정현우.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_5105_미로의거리_정현우.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/2667_단지번호붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/2667_단지번호붙이기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/.idea/SWEA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/.idea/SWEA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/input.txt" afterDir="false" />
-    </list>
+    <list default="true" id="0502e423-62a7-478f-98e2-d727f00453d4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/KAKAO_BLIND2020" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/KAKAO_BLIND2019" />
   </component>
   <component name="RunManager" selected="Python.SWEA_4871_그래프경로_정현우">
     <configuration name="문자열압축" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -228,12 +195,12 @@
       <screen x="0" y="0" width="1472" height="864" />
     </state>
     <state x="740" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1472.864@0.0.1472.864" timestamp="1598274115928" />
-    <state x="647" y="234" key="FileChooserDialogImpl" timestamp="1599391623299">
+    <state x="1019" y="219" key="FileChooserDialogImpl" timestamp="1599615588836">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="517" y="187" key="FileChooserDialogImpl/0.0.1472.864@0.0.1472.864" timestamp="1598274043152" />
     <state x="518" y="187" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1598529109157" />
-    <state x="647" y="234" key="FileChooserDialogImpl/0.0.1842.1080@0.0.1842.1080" timestamp="1599391623299" />
+    <state x="1019" y="219" key="FileChooserDialogImpl/0.0.1842.1080@0.0.1842.1080" timestamp="1599615588836" />
     <state width="939" height="280" key="GridCell.Tab.0.bottom" timestamp="1599374240258">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
