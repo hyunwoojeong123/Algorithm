@@ -19,18 +19,77 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0502e423-62a7-478f-98e2-d727f00453d4" name="Default Changelist" comment="" />
+    <list default="true" id="0502e423-62a7-478f-98e2-d727f00453d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/7576_토마토.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/사다리조작.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/D3_5178_노드의합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/D4_1231_gungwi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/D4_1232_sachik.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/D5_1248_공통조상.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/helloworld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ/2098_외판원순회.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/2098_외판원순회.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/.idea/SWEA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/.idea/SWEA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/KAKAO_BLIND2020/기둥과 보 설치.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="221" />
+    <option name="y" value="40" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectId" id="1fqqClhk1MYh53Ws7va7spbguuq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="KAKAO_BLIND2020" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,9 +97,43 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/KAKAO_BLIND2019" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.SWEA_4871_그래프경로_정현우">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.기둥과 보 설치">
+    <configuration name="기둥과 보 설치" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KAKAO_BLIND2020" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KAKAO_BLIND2020/기둥과 보 설치.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="문자열압축" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,13 +240,15 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.D4_1211_Ladder2" />
       <item itemvalue="Python.SWEA_4871_그래프경로_정현우" />
       <item itemvalue="Python.SWEA_4873_반복문자지우기_정현우" />
-      <item itemvalue="Python.D4_1211_Ladder2" />
       <item itemvalue="Python.문자열압축" />
+      <item itemvalue="Python.기둥과 보 설치" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.기둥과 보 설치" />
         <item itemvalue="Python.문자열압축" />
         <item itemvalue="Python.D4_1211_Ladder2" />
         <item itemvalue="Python.SWEA_4873_반복문자지우기_정현우" />
@@ -161,7 +256,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -175,79 +270,107 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="221" y="40" width="1400" height="1000" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32848233" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290993" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598274115928">
-      <screen x="0" y="0" width="1472" height="864" />
-    </state>
-    <state x="740" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1472.864@0.0.1472.864" timestamp="1598274115928" />
-    <state x="1019" y="219" key="FileChooserDialogImpl" timestamp="1599615588836">
-      <screen x="0" y="0" width="1842" height="1080" />
-    </state>
-    <state x="517" y="187" key="FileChooserDialogImpl/0.0.1472.864@0.0.1472.864" timestamp="1598274043152" />
-    <state x="518" y="187" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1598529109157" />
-    <state x="1019" y="219" key="FileChooserDialogImpl/0.0.1842.1080@0.0.1842.1080" timestamp="1599615588836" />
-    <state width="939" height="280" key="GridCell.Tab.0.bottom" timestamp="1599374240258">
-      <screen x="0" y="0" width="1842" height="1080" />
-    </state>
-    <state width="1451" height="207" key="GridCell.Tab.0.bottom/0.0.1472.864/1920.0.1920.1080@0.0.1472.864" timestamp="1596959311304" />
-    <state width="834" height="192" key="GridCell.Tab.0.bottom/0.0.1472.864@0.0.1472.864" timestamp="1598274988549" />
-    <state width="992" height="193" key="GridCell.Tab.0.bottom/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1598509317693" />
-    <state width="992" height="193" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1598452612723" />
-    <state width="939" height="280" key="GridCell.Tab.0.bottom/0.0.1842.1080@0.0.1842.1080" timestamp="1599374240258" />
-    <state width="939" height="280" key="GridCell.Tab.0.center" timestamp="1599374240258">
-      <screen x="0" y="0" width="1842" height="1080" />
-    </state>
-    <state width="1451" height="207" key="GridCell.Tab.0.center/0.0.1472.864/1920.0.1920.1080@0.0.1472.864" timestamp="1596959311304" />
-    <state width="834" height="192" key="GridCell.Tab.0.center/0.0.1472.864@0.0.1472.864" timestamp="1598274988549" />
-    <state width="992" height="193" key="GridCell.Tab.0.center/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1598509317693" />
-    <state width="992" height="193" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1598452612723" />
-    <state width="939" height="280" key="GridCell.Tab.0.center/0.0.1842.1080@0.0.1842.1080" timestamp="1599374240258" />
-    <state width="939" height="280" key="GridCell.Tab.0.left" timestamp="1599374240258">
-      <screen x="0" y="0" width="1842" height="1080" />
-    </state>
-    <state width="1451" height="207" key="GridCell.Tab.0.left/0.0.1472.864/1920.0.1920.1080@0.0.1472.864" timestamp="1596959311304" />
-    <state width="834" height="192" key="GridCell.Tab.0.left/0.0.1472.864@0.0.1472.864" timestamp="1598274988549" />
-    <state width="992" height="193" key="GridCell.Tab.0.left/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1598509317693" />
-    <state width="992" height="193" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1598452612723" />
-    <state width="939" height="280" key="GridCell.Tab.0.left/0.0.1842.1080@0.0.1842.1080" timestamp="1599374240258" />
-    <state width="939" height="280" key="GridCell.Tab.0.right" timestamp="1599374240258">
-      <screen x="0" y="0" width="1842" height="1080" />
-    </state>
-    <state width="1451" height="207" key="GridCell.Tab.0.right/0.0.1472.864/1920.0.1920.1080@0.0.1472.864" timestamp="1596959311304" />
-    <state width="834" height="192" key="GridCell.Tab.0.right/0.0.1472.864@0.0.1472.864" timestamp="1598274988549" />
-    <state width="992" height="193" key="GridCell.Tab.0.right/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1598509317693" />
-    <state width="992" height="193" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1598452612723" />
-    <state width="939" height="280" key="GridCell.Tab.0.right/0.0.1842.1080@0.0.1842.1080" timestamp="1599374240258" />
-    <state width="990" height="266" key="GridCell.Tab.1.bottom" timestamp="1598319472317">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state width="990" height="266" key="GridCell.Tab.1.bottom/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1598319472317" />
-    <state width="990" height="266" key="GridCell.Tab.1.center" timestamp="1598319472317">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state width="990" height="266" key="GridCell.Tab.1.center/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1598319472317" />
-    <state width="990" height="266" key="GridCell.Tab.1.left" timestamp="1598319472317">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state width="990" height="266" key="GridCell.Tab.1.left/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1598319472317" />
-    <state width="990" height="266" key="GridCell.Tab.1.right" timestamp="1598319472317">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state width="990" height="266" key="GridCell.Tab.1.right/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1598319472317" />
+    <state x="740" y="233" key="#com.intellij.fileTypes.FileTypeChooser" />
+    <state x="740" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1472.864@0.0.1472.864" />
+    <state x="1019" y="219" key="FileChooserDialogImpl" />
+    <state x="517" y="187" key="FileChooserDialogImpl/0.0.1472.864@0.0.1472.864" />
+    <state x="518" y="187" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" />
+    <state x="1019" y="219" key="FileChooserDialogImpl/0.0.1842.1080@0.0.1842.1080" />
+    <state width="939" height="280" key="GridCell.Tab.0.bottom" />
+    <state width="1451" height="207" key="GridCell.Tab.0.bottom/0.0.1472.864/1920.0.1920.1080@0.0.1472.864" />
+    <state width="834" height="192" key="GridCell.Tab.0.bottom/0.0.1472.864@0.0.1472.864" />
+    <state width="992" height="193" key="GridCell.Tab.0.bottom/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" />
+    <state width="992" height="193" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" />
+    <state width="939" height="280" key="GridCell.Tab.0.bottom/0.0.1842.1080@0.0.1842.1080" />
+    <state width="939" height="280" key="GridCell.Tab.0.center" />
+    <state width="1451" height="207" key="GridCell.Tab.0.center/0.0.1472.864/1920.0.1920.1080@0.0.1472.864" />
+    <state width="834" height="192" key="GridCell.Tab.0.center/0.0.1472.864@0.0.1472.864" />
+    <state width="992" height="193" key="GridCell.Tab.0.center/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" />
+    <state width="992" height="193" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" />
+    <state width="939" height="280" key="GridCell.Tab.0.center/0.0.1842.1080@0.0.1842.1080" />
+    <state width="939" height="280" key="GridCell.Tab.0.left" />
+    <state width="1451" height="207" key="GridCell.Tab.0.left/0.0.1472.864/1920.0.1920.1080@0.0.1472.864" />
+    <state width="834" height="192" key="GridCell.Tab.0.left/0.0.1472.864@0.0.1472.864" />
+    <state width="992" height="193" key="GridCell.Tab.0.left/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" />
+    <state width="992" height="193" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" />
+    <state width="939" height="280" key="GridCell.Tab.0.left/0.0.1842.1080@0.0.1842.1080" />
+    <state width="939" height="280" key="GridCell.Tab.0.right" />
+    <state width="1451" height="207" key="GridCell.Tab.0.right/0.0.1472.864/1920.0.1920.1080@0.0.1472.864" />
+    <state width="834" height="192" key="GridCell.Tab.0.right/0.0.1472.864@0.0.1472.864" />
+    <state width="992" height="193" key="GridCell.Tab.0.right/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" />
+    <state width="992" height="193" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" />
+    <state width="939" height="280" key="GridCell.Tab.0.right/0.0.1842.1080@0.0.1842.1080" />
+    <state width="990" height="266" key="GridCell.Tab.1.bottom" />
+    <state width="990" height="266" key="GridCell.Tab.1.bottom/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" />
+    <state width="990" height="266" key="GridCell.Tab.1.center" />
+    <state width="990" height="266" key="GridCell.Tab.1.center/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" />
+    <state width="990" height="266" key="GridCell.Tab.1.left" />
+    <state width="990" height="266" key="GridCell.Tab.1.left/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" />
+    <state width="990" height="266" key="GridCell.Tab.1.right" />
+    <state width="990" height="266" key="GridCell.Tab.1.right/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/KAKAO_BLIND2020/기둥과 보 설치.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
