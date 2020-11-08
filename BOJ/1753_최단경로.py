@@ -30,3 +30,6 @@ for i in range(1,V+1):
         print('INF')
     else:
         print(d[i])
+
+0 1 2 3 4
+[1 2 3 4 5]
