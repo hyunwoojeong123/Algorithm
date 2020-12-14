@@ -25,9 +25,12 @@ def pale_clear(color):
         #         green[i][j] = False
         for i in range(6-gp,6)[::-1]:
             for j in range(4):
-                green[i][j] = False
-                for ii in range(1,i+1)[::-1]:
-                    green[ii][j] = green[ii-1][j]
+                #green[i][j] = False
+                for ii in range(0,i+1)[::-1]:
+                    if ii == 0:
+                        green[ii][j] = False
+                    else:
+                        green[ii][j] = green[ii-1][j]
     else:
         bp = cnt_pale(color)
         # for j in range(0, 2):
@@ -37,9 +40,12 @@ def pale_clear(color):
         for j in range(6-bp,6)[::-1]:
             # 해당 줄 다 지우기
             for i in range(4):
-                blue[i][j] = False
-                for jj in range(1,j+1)[::-1]:
-                    blue[i][jj] = blue[i][jj-1]
+                #blue[i][j] = False
+                for jj in range(0,j+1)[::-1]:
+                    if jj == 0:
+                        blue[i][jj] = False
+                    else:
+                        blue[i][jj] = blue[i][jj-1]
 def pang():
     # green 보드의 가로
     # blue 보드의 세로가 가득 차 있으면, 다 없애고 그 위에 있는 애들은
@@ -55,8 +61,11 @@ def pang():
             for i in range(4):
                 blue[i][j] = False
                 if j != 0:
-                    for jj in range(1,j+1)[::-1]:
-                        blue[i][jj] = blue[i][jj-1]
+                    for jj in range(0,j+1)[::-1]:
+                        if jj == 0:
+                            blue[i][jj] = False
+                        else:
+                            blue[i][jj] = blue[i][jj-1]
 
     for i in range(6):
         cnt = 0
@@ -69,8 +78,11 @@ def pang():
             for j in range(4):
                 green[i][j] = False
                 if i != 0:
-                    for ii in range(1,i+1)[::-1]:
-                        green[ii][j] = green[ii-1][j]
+                    for ii in range(0,i+1)[::-1]:
+                        if ii == 0:
+                            green[ii][j] = False
+                        else:
+                            green[ii][j] = green[ii-1][j]
 
 
 
