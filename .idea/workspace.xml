@@ -20,19 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0502e423-62a7-478f-98e2-d727f00453d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BOJ/1238_파티.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/2003_수들의합2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/마법사상어_파이어볼.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/컨베이어벨트위의로봇.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/16진수_7bit_십진수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/D3_1244_최대상금.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/D4_10888_음식배달.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/D4_1865_동철이의일분배.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/QUICK_SORT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/동철이일분배_구진범.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/모의SW텟_숫자만들기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/.idea/SWEA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/.idea/SWEA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/16234_인구이동_다시.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
