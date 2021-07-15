@@ -12,21 +12,13 @@ def solution(n, start, end, roads, traps):
         trap_idx[trap] = i
     # print(trap_idx)
 
-    # 길 정보는 정방향,역방향 나눠서 저장
-    forward = [dict() for _ in range(n + 1)]
-    reverse = [dict() for _ in range(n + 1)]
-
+    # 길 정보는 정방향 1,역방향 0로 저장
+    edges = [[] for _ in range(n + 1)]
     for road in roads:
         st, ed, d = road
-        if ed in forward[st]:
-            forward[st][ed] = min(d, forward[st][ed])
-        else:
-            forward[st][ed] = d
-
-        if st in reverse[ed]:
-            reverse[ed][st] = min(d, reverse[ed][st])
-        else:
-            reverse[ed][st] = d
+        edges[st].append([ed, d, 1])
+        edges[ed].append([st, d, 0])
+    # print(edges)
 
     D = [[INF for _ in range(n + 1)] for __ in range(1 << len(traps))]
     D[0][start] = 0
@@ -35,66 +27,71 @@ def solution(n, start, end, roads, traps):
 
     while pq:
         cur_dist, cur_node, cur_state = heapq.heappop(pq)
+        cur_tidx = -1
         if cur_node in traps:
-            tidx = trap_idx[cur_node]
-            # 트랩이면 상태 변경
-            if cur_node in traps:
-                cur_state = cur_state ^ (1 << tidx)
+            cur_tidx = trap_idx[cur_node]
         # print('거리:', cur_dist,'노드:',cur_node,'상태:',cur_state)
         if cur_dist > D[cur_state][cur_node]:
             continue
-        if cur_node in traps and cur_state & (1 << tidx):
-            # 트랩이 활성화 대잇으면 역방향
-            for next_node, next_dist in reverse[cur_node].items():
-                next_dist += cur_dist
-                if next_dist < D[cur_state][next_node]:
-                    D[cur_state][next_node] = next_dist
-                    heapq.heappush(pq, [next_dist, next_node, cur_state])
-        else:
-            # 정방향
-            for next_node, next_dist in forward[cur_node].items():
-                next_dist += cur_dist
-                if next_dist < D[cur_state][next_node]:
-                    D[cur_state][next_node] = next_dist
-                    heapq.heappush(pq, [next_dist, next_node, cur_state])
-        # if cur_node in traps:
-        #     # 현 노드가 트랩이면
-        #     # state 변경해주고 해당 state에 맞는 방향으로 길 찾는다.
-        #     tidx = trap_idx[cur_node]
-        #     next_state = cur_state ^ (1 << tidx)
-        #     if next_state & (1 << tidx):
-        #         # 현재 트랩 활성화댐 reverse
-        #         for next_node,next_dist in reverse[cur_node].items():
-        #             next_dist += cur_dist
-        #             if next_dist < D[next_state][next_node]:
-        #                 D[next_state][next_node] = next_dist
-        #                 heapq.heappush(pq,[next_dist,next_node,next_state])
-        #     else:
-        #         # forward
-        #         for next_node,next_dist in forward[cur_node].items():
-        #             next_dist += cur_dist
-        #             if next_dist < D[next_state][next_node]:
-        #                 D[next_state][next_node] = next_dist
-        #                 heapq.heappush(pq,[next_dist,next_node,next_state])
-        # else:
-        #     # 현 노드가 트랩이 아니면
-        #     # 그냥 정방향으로 다음 갈애 찾는다. state변경도 없다.
-        #     next_state = cur_state
-        #     for next_node,next_dist in forward[cur_node].items():
-        #         next_dist += cur_dist
-        #         if next_dist < D[next_state][next_node]:
-        #             D[next_state][next_node] = next_dist
-        #             heapq.heappush(pq,[next_dist,next_node,next_state])
+        for next_node, next_dist, is_forward in edges[cur_node]:
+            # 가려는 곳이 트랩인지 아닌지 구분해서 상태 변경 처리한다.
+            next_state = cur_state
+            next_tidx = -1
+            if next_node in traps:
+                next_tidx = trap_idx[next_node]
+                next_state = next_state ^ (1 << next_tidx)
+            ## 일반->일반
+            if cur_node not in traps and next_node not in traps:
+                if is_forward:
+                    next_dist += cur_dist
+                    if next_dist < D[next_state][next_node]:
+                        D[next_state][next_node] = next_dist
+                        heapq.heappush(pq, [next_dist, next_node, next_state])
+            ## 일반->트랩
+            elif cur_node not in traps and next_node in traps:
+                if is_forward and not cur_state & (1 << next_tidx):
+                    next_dist += cur_dist
+                    if next_dist < D[next_state][next_node]:
+                        D[next_state][next_node] = next_dist
+                        heapq.heappush(pq, [next_dist, next_node, next_state])
+                elif not is_forward and cur_state & (1 << next_tidx):
+                    next_dist += cur_dist
+                    if next_dist < D[next_state][next_node]:
+                        D[next_state][next_node] = next_dist
+                        heapq.heappush(pq, [next_dist, next_node, next_state])
 
-    # 다익스트라로 하는데
-    # trap의 상태들도 같이 저장해서
-    # D[trap상태][노드] 이러헤 저장할거
-    # 힙큐에도 [거리,노드,trap상태] 이렇게 넣고
-    # trap상태는 비트마스킹으로 표시 i번째 비트가 0이면 비활성, 1이면 활성
+            ## 트랩->트랩
+            elif cur_node in traps and next_node in traps:
+                if is_forward:
+                    if (cur_state & (1 << cur_tidx) and cur_state & (1 << next_tidx)) or (
+                            not (cur_state & (1 << cur_tidx)) and not (cur_state & (1 << next_tidx))):
+                        next_dist += cur_dist
+                        if next_dist < D[next_state][next_node]:
+                            D[next_state][next_node] = next_dist
+                            heapq.heappush(pq, [next_dist, next_node, next_state])
+                else:
+                    if (not (cur_state & (1 << cur_tidx)) and cur_state & (1 << next_tidx)) or (
+                            (cur_state & (1 << cur_tidx)) and not (cur_state & (1 << next_tidx))):
+                        next_dist += cur_dist
+                        if next_dist < D[next_state][next_node]:
+                            D[next_state][next_node] = next_dist
+                            heapq.heappush(pq, [next_dist, next_node, next_state])
+            ## 트랩->일반
+            elif cur_node in traps and next_node not in traps:
+                if is_forward:
+                    if not (cur_state & (1 << cur_tidx)):
+                        next_dist += cur_dist
+                        if next_dist < D[next_state][next_node]:
+                            D[next_state][next_node] = next_dist
+                            heapq.heappush(pq, [next_dist, next_node, next_state])
+                else:
+                    if cur_state & (1 << cur_tidx):
+                        next_dist += cur_dist
+                        if next_dist < D[next_state][next_node]:
+                            D[next_state][next_node] = next_dist
+                            heapq.heappush(pq, [next_dist, next_node, next_state])
 
     for i in range(1 << len(traps)):
         if answer > D[i][end]:
             answer = D[i][end]
     return answer
-
-print(solution(4,1,4,[[1,2,1],[3,2,1],[2,4,1]],[2,3]))
