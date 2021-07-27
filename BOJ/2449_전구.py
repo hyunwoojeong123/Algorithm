@@ -1,39 +1,30 @@
 import sys
 
-def DFS(state):
-    # 만약 arr이 전부 똑같은 색이면 0리턴
-    state_arr = state.split(',')
-    col = state_arr[0]
-    all_same = True
-    for i in range(N):
-        if state_arr[i] != col:
-            all_same = False
-            break
-    if all_same:
+def DFS(start, end):
+    if start == end:
         return 0
-    # 만약 D[state]가 있으면 얘 리턴
-    if D.get(state,-1) != -1:
-        return D[state]
-    # 위에서 안 걸러지면 전부 탐색해 최소한의 값으로 간다
-    D[state] = INF
-    for i in range(N):
-        origin = int(state_arr[i])
-        for j in range(1,K+1):
-            if j == origin:
-                continue
-            state_arr[i] = str(j)
-            next_state = ",".join(state_arr)
-            temp = DFS(next_state) + 1
-            if temp < D[state]:
-                D[state] = temp
-            state_arr[i] = str(origin)
-    return D[state]
+    if D[start][end] != -1:
+        return D[start][end]
+    D[start][end] = INF
+    for mid in range(start,end):
+        left = DFS(start,mid)
+        right = DFS(mid+1,end)
+        alpha = 0
+        if arr[start] != arr[mid+1]:
+            alpha = 1
+        temp = left+right+alpha
+        D[start][end] = min(temp,D[start][end])
+    return D[start][end]
+
 
 sys.setrecursionlimit(1000000)
 INF = sys.maxsize
-D = dict()
+
 N,K = map(int,input().split())
 arr = input().split()
-first_state = ','.join(arr)
-print(DFS(first_state))
+D = [[-1 for j in range(N+1)] for i in range(N+1)]
+# N,K = 200,20
+# arr = [str(i%20+1) for i in range(200)]
 
+print(DFS(0,N-1))
+# print(D)
