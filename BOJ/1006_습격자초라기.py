@@ -1,61 +1,74 @@
 import sys
 INF = sys.maxsize
 
-def DFS(state):
-    # print(bin(state))
-    if state == 2**(2*N)-1:
-        return 0
-    if D[state] != -1:
-        return D[state]
-    D[state] = INF
-    # 먼저 방문할 놈들 정함
-    for nxt in range(2*N):
-        # 방문햇으면 컨티뉴
-        if state & (1 << nxt):
+def solve(start):
+    for i in range(start,N+1):
+        D_both[i] = min(D_inner[i-1]+1,D_outer[i-1]+1 )
+        if inner[i-1] + outer[i-1] <= W:
+            D_both[i] = min(D_both[i], D_both[i-1]+1)
+        if i > 1 and inner[i-1]+inner[i-2] <= W and outer[i-1]+outer[i-2] <= W:
+            D_both[i] = min(D_both[i], D_both[i-2]+2)
+        if i == N:
             continue
-        for adj in adjs[nxt]:
-            # 근처놈도 방문햇으면 컨티뉴
-            if state & (1 << adj):
-                continue
-            # 근처놈 + NXT 인원이 소대보다 크면 컨티뉴
-            if enemy[adj] + enemy[nxt] > W:
-                continue
-            # 소대 침투시키기
-            next_state = (state | (1 << adj)) | (1 << nxt)
-            temp = DFS(next_state) + 1
-            if temp < D[state]:
-                D[state] = temp
-        # 인접애들 방문안하는 경우도 고려해야대
-        next_state = state | (1 << nxt)
-        temp = DFS(next_state) + 1
-        if temp < D[state]:
-            D[state] = temp
+        D_inner[i] = INF
+        D_inner[i] = min(D_inner[i-1]+2,D_inner[i])
+        if inner[i] + inner[i-1] <= W:
+            D_inner[i] = min(D_outer[i-1]+1,D_inner[i])
+        D_inner[i] = min(D_inner[i],D_both[i]+1)
 
-    return D[state]
-
-
+        D_outer[i] = INF
+        D_outer[i] = min(D_outer[i - 1] + 2, D_outer[i])
+        if outer[i] + outer[i - 1] <= W:
+            D_outer[i] = min(D_inner[i - 1] + 1, D_outer[i])
+        D_outer[i] = min(D_outer[i], D_both[i] + 1)
 
 T = int(input())
 for _ in range(T):
+    ans = 987654321
     N,W = map(int,input().split())
-    enemy = list(map(int,input().split()))
-    enemy += list(map(int,input().split()))
-    # print(N,W,enemy)
-    D = [-1 for _ in range(2**(2*N))]
-    adjs = []
-    # print(N,W,enemy)
-    for i in range(2*N):
-        if i == 0:
-            adjs.append([i+1,N,N-1])
-        elif i > 0 and i < N-1:
-            adjs.append([i-1,i+1,i+N])
-        elif i == N-1:
-            adjs.append([i-1,0,i+N])
-        elif i == N:
-            adjs.append([i+1,i-N,2*N-1])
-        elif i > N and i < 2*N-1:
-            adjs.append([i-1,i+1,i-N])
-        elif i == 2*N-1:
-            adjs.append([i-1,N,i-N])
-    print(N,W,enemy,adjs)
-    print(DFS(0))
+    inner = list(map(int,input().split()))
+    outer = list(map(int,input().split()))
+
+    D_inner = [-1 for _ in range(N)]
+    D_outer = [-1 for _ in range(N)]
+    D_both = [-1 for _ in range(N+1)]
+
+    # 둘다 연결안하는 경우
+    D_inner[0] = 1
+    D_outer[0] = 1
+    D_both[0] = 0
+    solve(1)
+
+    ans = min(ans,D_both[N])
+    # print('둘다연결안함',D_inner, D_outer, D_both,ans)
+    # inner 만 연결
+    if N > 1 and inner[0] + inner[N-1] <= W:
+        D_inner[1] = 2
+        if outer[0] + outer[1] <= W:
+            D_outer[1] = 1
+        else:
+            D_outer[1] = 2
+        D_both[1] = 1
+        solve(2)
+        ans = min(ans,D_outer[N-1]+1)
+        # print('inner만 연결', D_inner, D_outer, D_both, ans)
+    # outer만 연결
+    if N > 1 and outer[0] + outer[N-1] <= W:
+        D_outer[1] = 2
+        if inner[0] + inner[1] <= W:
+            D_inner[1] = 1
+        else:
+            D_inner[1] = 2
+        D_both[1] = 1
+        solve(2)
+        ans = min(ans,D_inner[N-1]+1)
+        # print('outer만 연결', D_inner, D_outer, D_both, ans)
+    # 둘다 연결
+    if N > 1 and inner[0] + inner[N-1] <= W and outer[0] + outer[N-1] <= W:
+        D_outer[1] = 1
+        D_both[1] = 0
+        D_inner[1] = 1
+        solve(2)
+        ans  = min(ans,D_both[N-1]+2)
+        # print('둘다 연결', D_inner, D_outer, D_both, ans)
+    print(ans)
