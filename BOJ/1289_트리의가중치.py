@@ -1,22 +1,27 @@
-def weight(root):
-    visited[root] = True
-    child_weights = []
-    # 만약 자식 없으면 1 리턴
-    for dist,next in adj[root]:
-        if visited[next]:
+import sys
+sys.setrecursionlimit(100001)
+DIV = 1000000007
+
+def weight(now):
+    global ans
+    # print('weight({})'.format(now))
+    visited[now] = True
+
+    gob = 1
+    for dist,child in adj[now]:
+        if visited[child]:
             continue
-        child_weights.append(dist*weight(next))
-    # 있으면 배열 1개에 다 넣어놈
-    if child_weights == []:
-        return 1
-    else:
-        # 배열에 넣은애들 다 더해서 리턴
-        ret = 0
-        for i in range(len(child_weights)):
-            for j in range(i+1,len(child_weights)):
-                ret += child_weights[i][j]
+        ret = (weight(child) * dist) % DIV
+        ans += (ret * gob) % DIV
+        ans %= DIV
+        gob = (gob + ret) % DIV
+    return gob
 
 
+
+
+
+ans = 0
 N = int(input())
 adj = [[] for _ in range(N+1)]
 for _ in range(N-1):
@@ -24,4 +29,5 @@ for _ in range(N-1):
     adj[A].append([W,B])
     adj[B].append([W,A])
 visited = [False for _ in range(N+1)]
-print(weight(1))
+weight(1)
+print(ans)
